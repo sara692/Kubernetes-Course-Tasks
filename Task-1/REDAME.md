@@ -24,10 +24,10 @@
 <img width="596" height="383" alt="image" src="https://github.com/user-attachments/assets/147d7459-f72b-4b4f-858f-3be75ef6d10e" />
 
 ### Deployment and pods
-<img width="1091" height="182" alt="Capture2" src="https://github.com/user-attachments/assets/45609699-6d44-43d7-8878-101f8473ac44" />
+<img width="638" height="186" alt="Capture1" src="https://github.com/user-attachments/assets/0325ea60-654e-476f-97a6-45572842c1f1" />
 
 ### Page updating
-<img width="638" height="186" alt="Capture1" src="https://github.com/user-attachments/assets/0325ea60-654e-476f-97a6-45572842c1f1" />
+<img width="1091" height="182" alt="Capture2" src="https://github.com/user-attachments/assets/45609699-6d44-43d7-8878-101f8473ac44" />
 
 ### Verification checks
 <img width="1896" height="647" alt="Capture3" src="https://github.com/user-attachments/assets/4a38c361-80dd-45e7-bce7-2da3841cf2be" />
