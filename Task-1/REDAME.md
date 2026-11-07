@@ -1,11 +1,23 @@
 # Task 1: Multi-container Pods (Init Container & Sidecar)
 
 ## What I did
-1. Created a 3-node minikube cluster (Calico) on an AWS EC2 instance (m7i-flex.large, Ubuntu).
-2. Created namespace `webapp`.
-3. Deployed `web-deployment` (3 replicas) with an init container, nginx, and a time-updater sidecar, with `shareProcessNamespace: true` and no volumes.
-4. Verified the page updates every 5 seconds.
-5. Broke the init container (exit 1), observed the behavior, then fixed it.
+ 
+1. Launched an EC2 instance on AWS and connected to it over SSH with a key pair.
+2. Added swap, installed Docker, kubectl and minikube.
+3. Created the cluster:
+```bash
+   minikube start --nodes 3 --cni=calico --cpus 2 --memory 2200
+   kubectl get nodes
+```
+4. Created the namespace and the Deployment:
+```bash
+   kubectl apply -f namespace.yaml
+   kubectl apply -f deployment.yaml
+   kubectl get pods -n webapp -w
+```
+5. Checked that the page works and the time changes every 5 seconds.
+6. Changed only the init container command to `exit 1`, applied it, and observed the result.
+7. Restored the working init command and confirmed the Deployment is `3/3` again.
 
 ## Screenshots
 ### Cluster
