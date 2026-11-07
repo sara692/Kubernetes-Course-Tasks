@@ -47,9 +47,9 @@
  
 | Field            | Details                                      |
 |------------------|----------------------------------------------|
-| Name             | `<YOUR FULL NAME>`                           |
-| GitHub           | `<YOUR GITHUB USERNAME>`                     |
-| Email            | `<YOUR EMAIL>`                               |
+| Name             | Sara Ibrahim Mohamed Omran                           |
+| GitHub           | sara692                     |
+| Email            | saraomran433@gmail.com                               |
 | Course           | Kubernetes Course - MLOps MENA Community     |
 | Task             | Task Session 1                               |
 | Date             | 2026-11-07                                   |
