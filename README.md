@@ -33,7 +33,7 @@ minikube start --nodes 3 --cni=calico --cpus 2 --memory 2200
 | Task | Topic | Folder | Status |
 |------|-------|--------|--------|
 | 1 | Multi-container Pods (Init Container & Sidecar) | [Task-1](./Task-1) | Done |
-| 2 | _to be added_ | Task-2 | Pending |
+| 2 | FastAPI + MySQL with ConfigMap, Secret & Ingress | [Task-2](./Task-2) | Done |
 | 3 | _to be added_ | Task-3 | Pending |
 | 4 | _to be added_ | Task-3 | Pending |
 | 5 | _to be added_ | Task-3 | Pending |
